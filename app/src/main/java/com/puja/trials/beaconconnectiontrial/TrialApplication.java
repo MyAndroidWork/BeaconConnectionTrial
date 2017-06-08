@@ -14,7 +14,7 @@ public class TrialApplication extends Application {
     public void onCreate() {
         super.onCreate();
 
-        EstimoteSDK.initialize(getApplicationContext(), "orchestra-technology-inc-s-4u2", "e2ca5a2c3a18f1e8343576157f9d4732");
+        EstimoteSDK.initialize(getApplicationContext(), "", "");
         EstimoteSDK.enableDebugLogging(true);
     }
 
