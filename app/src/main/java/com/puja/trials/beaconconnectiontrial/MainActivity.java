@@ -84,8 +84,8 @@ public class MainActivity extends AppCompatActivity {
                         // Take your connected DeviceConnection object and get it's editor
                         SettingsEditor edit = connection.edit();
                         edit.set(connection.settings.beacon.proximityUUID(), UUID.fromString("B9407F30-F5F8-466E-AFF9-25556B57FE6D"));
-                        edit.set(connection.settings.beacon.major(), 1000);
-                        edit.set(connection.settings.beacon.minor(), 100);
+                        edit.set(connection.settings.beacon.major(), 54657);
+                        edit.set(connection.settings.beacon.minor(), 43554);
                         edit.commit(new SettingCallback() {
                             @Override
                             public void onSuccess(Object value) {
