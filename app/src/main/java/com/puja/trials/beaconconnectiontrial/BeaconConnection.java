@@ -138,9 +138,9 @@ public class BeaconConnection {
     {
         Log.d("BeaconConnection", "editBeaconSettings");
         settingsEditor = connection.edit();
-        settingsEditor.set(connection.settings.beacon.proximityUUID(), UUID.fromString("B9407F30-F5F8-466E-AFF9-25556B57FE6D"));
-        settingsEditor.set(connection.settings.beacon.major(), 1000);
-        settingsEditor.set(connection.settings.beacon.minor(), 100);
+        settingsEditor.set(connection.settings.beacon.proximityUUID(), UUID.fromString(""));
+        settingsEditor.set(connection.settings.beacon.major(), 54365);
+        settingsEditor.set(connection.settings.beacon.minor(), 45345);
 
         Log.d("Updated -", connection.settings.beacon.major().toString() + "-----" + connection.settings.beacon.minor().toString());
 
